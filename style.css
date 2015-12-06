@@ -1,0 +1,169 @@
+.Vega_Group_Stylesheet {
+/* <title>Default Stylesheet</title> */
+}
+
+/* HTML ELEMENTS */
+
+body {
+	scrollbar-3d-light-color : #40E0D0;
+	scrollbar-arrow-color : #000000;
+	scrollbar-base-color : #a9a9a9;
+	scrollbar-dark-shadow-color : Black;
+	scrollbar-face-color : #c0c0c0;
+	scrollbar-highlight-color : #d3d3d3;
+	scrollbar-shadow-color : #808080;
+	background : #c0c0c0;
+	color : Black;
+	font-size : small;
+	font-family : Tahoma;
+	font-style : normal;
+	font-variant : normal;
+	font-weight : normal;
+	background-attachment : fixed;
+	background-color : #c0c0c0;
+	background-image : none;
+	clear : none;
+	display : block;
+	float : none;
+	text-align : justify;
+	text-decoration : none;
+	azimuth : center;
+	counter-increment : inherit;
+	elevation : level;
+	direction : ltr;
+	cursor : url(Images/cursor.ani);
+    margin: 0px;
+}
+
+a{
+	color : Blue;
+	text-decoration : underline;
+	cursor : url(Images/hand.ani);
+}
+a:focus, a:hover {
+	font-style : normal;
+	text-decoration : underline;
+	background-color : #D3D3D3;
+}
+.simg {
+	border : thin groove Gray;
+}
+h4 {
+  font-size: 10pt;
+}
+
+ul {
+  list-style-type: square;
+}
+
+/****************************************************************************/
+/* Layout objects.                                                          */
+/****************************************************************************/
+
+.titleBar {
+  background-color: #808080;
+  border-top: 2px solid #c0c0c0;
+  border-bottom: 2px solid #606060;
+  color: #ffffff;
+  font-size: 8pt;
+  font-weight: bold;
+  padding: 4px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.status {
+  float: right;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 16pt;
+  font-style: italic;
+}
+
+.menuBar {
+	background-color: #c0c0c0;
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 2px solid #808080;
+	font-size: 8pt;
+	font-weight: bold;
+	padding: 2px;
+	text-align: center;
+}
+
+.subTitle {
+	color: White;
+	font-size: 12pt;
+	font-weight: bold;
+	padding: 0px 1em 2px 0px;
+	text-align: right;
+}
+
+.copyright {
+  border-top: 1px dotted #808080;
+  font-size: 8pt;
+  font-weight: bold;
+  padding: 2px;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: right;
+}
+
+.expand{
+	cursor: hand;
+	position: relative;
+	left: 1;
+	font-family: 'Courier New';
+	font-weight : bold;
+}
+.expandi{
+    position: relative;
+    left: 20;
+}
+.expandd{
+    position: relative;
+    left: 1;
+}
+.loginbox{
+border: 1 solid Black;
+font-family: 'Courier New', Courier, monospace;
+font-size: smaller;
+}
+.errormessage{
+font: smaller;
+color: Red;
+vertical-align: middle;
+text-align: justify;
+}
+.bodyclass{
+/*	margin-left : 8px;
+	margin-top : 8px;
+	margin-right : 8px;
+
+	margin-bottom : 8px; */
+}
+
+.error, .info {
+  border: 1px solid #000000;
+  font-weight: bold;
+  padding: 2px;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.error {
+  background-color: #ffff00;
+  color: #800000;
+  vertical-align: middle;
+  text-align: justify;
+}
+
+.info {
+  background-color: #40a040;
+  color: #ffffff;
+}
+
+.small {
+  font-size: 8pt;
+}
